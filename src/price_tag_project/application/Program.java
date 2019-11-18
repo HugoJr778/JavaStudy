@@ -1,4 +1,4 @@
-package priceTag_project.application;
+package price_tag_project.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import priceTag_project.entities.ImportedProduct;
-import priceTag_project.entities.Product;
-import priceTag_project.entities.UsedProduct;
+import price_tag_project.entities.ImportedProduct;
+import price_tag_project.entities.Product;
+import price_tag_project.entities.UsedProduct;
 
 public class Program {
 	

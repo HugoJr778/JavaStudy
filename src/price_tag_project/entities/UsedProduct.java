@@ -1,4 +1,4 @@
-package priceTag_project.entities;
+package price_tag_project.entities;
 
 import java.util.Date;
 
