@@ -18,7 +18,6 @@ public class Program {
 		String path = "file_folders_example\\in.txt";
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(path))) {
-			
 			String line = br.readLine();
 			while (line != null) {
 				String[] fields = line.split(",");
@@ -29,6 +28,5 @@ public class Program {
 		} catch (IOException e) {
 			System.out.println(e.getMessage() + e);
 		}
-		
 	}
 }
